@@ -25,10 +25,11 @@ The library can be used to maintain a cart for all the purchased items in a part
 Add the repository to your project **build.gradle**
 
 ```Gradle
-repositories {
-    jcenter()
-    maven {
-        url "https://jitpack.io"
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 ```
