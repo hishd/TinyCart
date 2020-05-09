@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_gray_border"
+    android:paddingStart="@dimen/_5sdp"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingEnd="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_5sdp">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgItem"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/dummy_store_item" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/txtItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgItem"
+        android:layout_alignStart="@id/imgItem"
+        android:layout_alignEnd="@id/imgItem"
+        android:text="Item Name"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/_12sdp" />
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_alignStart="@id/imgItem"
+        android:layout_alignEnd="@id/imgItem"
+        android:layout_below="@id/txtItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_lkr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:text="@string/lkr"
+            android:textColor="@color/onbording_bg"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtItemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_toEndOf="@id/txt_lkr"
+            android:text="@string/dummy_price"
+            android:textColor="@color/onbording_bg"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

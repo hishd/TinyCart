@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EasyCart</string>
+    <string name="lkr">LKR</string>
+    <string name="dummy_price">1000.00</string>
+    <string name="cart">My Cart</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="checkout">Checkout</string>
+    <string name="dummy_item_name">Macbook Pro 2015</string>
+</resources>

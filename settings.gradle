@@ -1,0 +1,3 @@
+rootProject.name='EasyCart'
+include ':app'
+include ':tinycart'
