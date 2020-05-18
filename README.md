@@ -50,6 +50,13 @@ public class ProductItem implements Item, Serializable {
     /////
 }
 ```
+
+After implementing the class the Cart can be initialized and used anywhere in your application
+ex:
+```
+Cart cart = TinyCartHelper.getCart();
+```
+
 Usages of the methods.
 
 | Method Name | Operation |
