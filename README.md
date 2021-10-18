@@ -1,4 +1,6 @@
 # TinyCart
+[![](https://jitpack.io/v/hishd/TinyCart.svg)](https://jitpack.io/#hishd/TinyCart)
+
 
 <table>
   <tr>
