@@ -64,7 +64,7 @@ Usages of the methods.
 | Method Name | Operation |
 | ------ | ------ |
 | addItem(Item item, int quantity) | Add a new item to the cart|
-| updateItem(final Item item, final int quantity) | Update an existing item the the cart |
+| updateItem(final Item item, final int quantity) | Update an existing item quantity the the cart |
 | removeItemQty(final Item item, final int quantity) | Removes quantity of a certain item |
 | removeItem(final Item item) | Removes an item in the cart |
 | clearCart() | Removes all the products and clear the cart |
